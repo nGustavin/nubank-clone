@@ -1,5 +1,7 @@
 {
   "extends": "expo/tsconfig.base",
+  "noImplicitAny": false,
+  "types": ["styled-components/native"],
   "compilerOptions": {
     "strict": true
   }
