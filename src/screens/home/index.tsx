@@ -1,7 +1,7 @@
 import { SimpleLineIcons } from '@expo/vector-icons';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Image, StyleSheet, Text } from 'react-native';
+import { Image, Text } from 'react-native';
 import Logo from '../../assets/logo/newLogo.png';
 import CardLogo from '../../assets/master.png';
 import SettingsIcon from '../../assets/settings.png';
@@ -44,21 +44,5 @@ const Home = () => {
             </Container>
     )
 }
-
-const styles = StyleSheet.create({
-    environmentList: {
-        height: '100%',
-        width: '100%',
-        justifyContent: 'center',
-        paddingBottom: 5,
-        marginVertical: 30,
-      },
-
-      plants: {
-        flex: 1,
-        paddingHorizontal: 30,
-        justifyContent: 'center'
-      }
-})
 
 export default Home

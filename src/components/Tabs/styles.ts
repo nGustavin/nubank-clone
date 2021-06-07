@@ -23,7 +23,7 @@ export const TabItem = styled.TouchableOpacity`
     margin-left: 10px;
     align-items: flex-start;
     justify-content: space-between;
-    elevation: 9;
+    elevation: 5;
     padding: 20px;
 `
 

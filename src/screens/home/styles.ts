@@ -43,7 +43,7 @@ export const Card = styled.TouchableOpacity`
     align-items: flex-start;
     padding: 5% 7%;
     flex-direction: row;
-    elevation: 9;
+    elevation: 5;
     margin-bottom: 8%;
 `
 
@@ -65,7 +65,7 @@ export const Balance = styled.View`
     height: 120px;
     background: ${colors.foreground};
     border-radius: 21px;
-    elevation: 9;
+    elevation: 5;
     align-items: flex-start;
     justify-content: space-between;
     padding: 5% 7%;
@@ -97,7 +97,4 @@ export const Help = styled.Text`
     font-size: 15px;
     margin-top: 15%;
     padding: 0px 0px 0px 5%;
-`
-export const Footer = styled.ScrollView`
-  
 `
