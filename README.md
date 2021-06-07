@@ -1,5 +1,5 @@
 # Nubank Concept
-## A react native nubank concept using expo, styled-components, typescript and react-navigation.
+## A react native nubank concept created using expo, styled-components, typescript and react-navigation.
 
 <img src="https://github.com/nGustavin/nubank-clone/blob/main/src/assets/Hnet-image.gif" width="250"/>
 
