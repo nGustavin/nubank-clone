@@ -1,23 +1,17 @@
-import React from 'react';
-import { Image, Text } from 'react-native';
-
 import { SimpleLineIcons } from '@expo/vector-icons';
 import { StatusBar } from 'expo-status-bar';
-
+import React from 'react';
+import { Image, StyleSheet, Text } from 'react-native';
 import Logo from '../../assets/logo/newLogo.png';
 import CardLogo from '../../assets/master.png';
 import SettingsIcon from '../../assets/settings.png';
-import Option from '../../components/Option';
-
-import Pix from '../../assets/options/pix.png';
-import BarCode from '../../assets/options/barCode.png';
-import Deposit from '../../assets/options/deposit.png';
-
+import Tabs from '../../components/Tabs';
 import fonts from '../../styles/fonts';
+import { Balance, BalanceValue, Card, CardName, Container, Header, Help, Main, NameContainer, Settings, Title, TitleContainer } from './styles';
 
-import { Balance, BalanceValue, Card, CardName, Container, Footer, Header, Help, Main, NameContainer, Settings, Title, TitleContainer } from './styles';
 
-const Home = () => {
+
+const Home = () => { 
     return(
             <Container>
                 <StatusBar style="auto"/>
@@ -40,17 +34,31 @@ const Home = () => {
                             <Title>Saldo disponível</Title>
                             <SimpleLineIcons name="wallet" size={24} color="white" />
                         </TitleContainer>
-                        <BalanceValue>R$13795,76</BalanceValue>
+                        <BalanceValue>R$13.795,76</BalanceValue>
                     </Balance>
                     <Help>Do que precisa?</Help>
                 </Main>
-                <Footer>
-                    <Option icon={Pix} name="Fazer um pix"/>
-                    <Option icon={BarCode} name="Pagar um boleto"/>
-                    <Option icon={Deposit} name="Fazer um depósito"/>
-                </Footer>
+               <Tabs/>
+                    
+               
             </Container>
     )
 }
+
+const styles = StyleSheet.create({
+    environmentList: {
+        height: '100%',
+        width: '100%',
+        justifyContent: 'center',
+        paddingBottom: 5,
+        marginVertical: 30,
+      },
+
+      plants: {
+        flex: 1,
+        paddingHorizontal: 30,
+        justifyContent: 'center'
+      }
+})
 
 export default Home

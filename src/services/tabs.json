@@ -1,0 +1,40 @@
+{
+    "tabs": [
+        {
+            "id": 1,
+            "img": "../../assets/options/pix.png",
+            "icon": null,
+            "name": "Fazer um pix"
+        },
+        {
+            "id": 2,
+            "img": null,
+            "icon": "arrow-down",
+            "name": "Fazer um depósito"
+        },
+        {
+            "id": 3,
+            "img": null,
+            "icon": "barcode",
+            "name": "Pagar um boleto"
+        },
+        {
+            "id": 4,
+            "img": "../../assets/options/pix.png",
+            "icon": null,
+            "name": "Fazer um pix"
+        },
+        {
+            "id": 5,
+            "img": null,
+            "icon": "arrow-down",
+            "name": "Fazer um depósito"
+        },
+        {
+            "id": 6,
+            "img": null,
+            "icon": "barcode",
+            "name": "Pagar um boleto"
+        }
+    ]
+}

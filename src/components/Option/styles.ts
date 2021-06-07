@@ -12,9 +12,9 @@ export const Container = styled.TouchableOpacity`
     align-items: flex-start;
     justify-content: space-between;
     margin-left: 3%;
-`;
+`
 
-export const Icon = styled.Image`
+export const ImgIcon = styled.Image`
     width: 28px;
     height: 28px;
 `

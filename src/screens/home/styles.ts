@@ -7,14 +7,14 @@ export const Container = styled.SafeAreaView`
     flex: 1;
     align-items: center;
     justify-content: flex-start;
-    padding: 20% 8%;
+    padding: 20% 0%;
 `
 export const Header = styled.View`
     width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5%;
+    padding: 0 13%;
 `
 
 export const Settings = styled.TouchableOpacity`
@@ -32,6 +32,7 @@ export const Main = styled.View`
     align-items: flex-start;
     justify-content: space-around;
     margin-top: 5%;
+    padding: 0 8%;
 `
 export const Card = styled.TouchableOpacity`
     width: 100%;
@@ -97,12 +98,6 @@ export const Help = styled.Text`
     margin-top: 15%;
     padding: 0px 0px 0px 5%;
 `
-export const Footer = styled.View`
-    width: 100%;
-    height: 100%;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 15%;
-    flex-direction: row;
-    padding-left: 4%;
+export const Footer = styled.ScrollView`
+  
 `
